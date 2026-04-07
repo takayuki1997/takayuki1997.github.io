@@ -52,32 +52,6 @@ body {
   margin-bottom: 0;
 }
 
-/* Top navigation bar */
-.top-bar {
-  background-color: #212121;
-  padding: 0 48px;
-}
-
-.top-bar-inner {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.top-bar a {
-  color: #fff;
-  text-decoration: none;
-  font-family: 'Lato', sans-serif;
-  font-size: 15pt;
-  font-weight: 300;
-  line-height: 1.333;
-  display: inline-block;
-  padding: 12px 0;
-}
-
-.top-bar a:hover {
-  color: #49aad4;
-}
-
 /* Main content */
 .site-content {
   max-width: 900px;

@@ -3,12 +3,6 @@ layout: default
 title: Takayuki OGI（荻 多加之）
 ---
 
-<div class="top-bar">
-  <div class="top-bar-inner">
-    <a href="{{ '/' | relative_url }}">Takayuki OGI（荻 多加之）</a>
-  </div>
-</div>
-
 <header class="site-header">
   <div class="header-content">
     <h1 class="site-title">Takayuki OGI（荻 多加之）</h1>
