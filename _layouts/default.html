@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:title" content="Takayuki OGI（荻 多加之）">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  {{ content }}
+</body>
+</html>

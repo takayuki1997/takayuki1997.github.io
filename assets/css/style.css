@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #212121;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+/* Header / Hero */
+.site-header {
+  background-color: #226e93;
+  background-image: url('https://ssl.gstatic.com/atari/images/simple-header-blended-small.png');
+  background-size: cover;
+  position: relative;
+  padding: 60px 0;
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+}
+
+.site-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #212121;
+  opacity: 0.4;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 48px;
+  width: 100%;
+}
+
+.site-title {
+  color: #fff;
+  font-size: 19pt;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+
+/* Top navigation bar */
+.top-bar {
+  background-color: #212121;
+  padding: 0 48px;
+}
+
+.top-bar-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top-bar a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 15pt;
+  font-weight: 300;
+  line-height: 1.333;
+  display: inline-block;
+  padding: 12px 0;
+}
+
+.top-bar a:hover {
+  color: #49aad4;
+}
+
+/* Main content */
+.site-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 48px 60px;
+}
+
+/* Profile section */
+.profile-info {
+  margin-bottom: 32px;
+}
+
+.profile-info p {
+  font-family: 'Courier New', Arial, sans-serif;
+  color: #434343;
+  font-size: 11pt;
+  line-height: 1.32;
+  margin-bottom: 2px;
+}
+
+.profile-info p.role {
+  font-style: italic;
+}
+
+.profile-info a {
+  color: #434343;
+  text-decoration: none;
+}
+
+.profile-info a:hover {
+  text-decoration: underline;
+}
+
+/* Links section */
+.profile-links {
+  margin-top: 24px;
+}
+
+.profile-links p {
+  font-family: 'Courier New', Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.profile-links a {
+  color: #006580;
+  text-decoration: none;
+}
+
+.profile-links a:hover {
+  color: #007a93;
+}
+
+.profile-links a:visited {
+  color: #006580;
+}
+
+/* Divider */
+.section-divider {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  margin: 24px 0;
+}
+
+/* Responsive */
+@media only screen and (max-width: 767px) {
+  .site-header {
+    min-height: 250px;
+    padding: 30px 0;
+  }
+
+  .header-content {
+    padding: 0 24px;
+  }
+
+  .site-title {
+    font-size: 15pt;
+  }
+
+  .top-bar {
+    padding: 0 24px;
+  }
+
+  .site-content {
+    padding: 24px;
+  }
+}

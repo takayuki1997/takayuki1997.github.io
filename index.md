@@ -1,26 +1,37 @@
 ---
-layout: home
-title: Home
+layout: default
+title: Takayuki OGI（荻 多加之）
 ---
 
-# Takayuki OGI / 荻 多加之
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <a href="{{ '/' | relative_url }}">Takayuki OGI（荻 多加之）</a>
+  </div>
+</div>
 
-**PhD in Neuroscience**
+<header class="site-header">
+  <div class="header-content">
+    <h1 class="site-title">Takayuki OGI（荻 多加之）</h1>
+  </div>
+</header>
 
-## Affiliations
+<main class="site-content">
+  <div class="profile-info">
+    <p class="role">PhD in Neuroscience</p>
+    <p>Research Administrator at <a href="https://www.fukushima-u.ac.jp/" target="_blank">Fukushima University</a></p>
+    <p>Research Associate Professor at <a href="https://www.jaist.ac.jp" target="_blank">JAIST</a></p>
+    <p>Visiting Researcher at <a href="https://www.fmu.ac.jp/" target="_blank">Fukushima Medical University</a></p>
+  </div>
 
-- **Research Administrator** — Fukushima University (福島大学)
-- **Research Associate Professor** — JAIST (北陸先端科学技術大学院大学)
-- **Visiting Researcher** — Fukushima Medical University (福島県立医科大学)
+  <hr class="section-divider">
 
----
-
-## Links
-
-- [Facebook](https://www.facebook.com/takayuki.ogi)
-- [X (Twitter)](https://twitter.com/takayuki1997)
-- [Instagram](https://www.instagram.com/takayuki1997/)
-- [LinkedIn](https://www.linkedin.com/in/takayuki1997/)
-- [GitHub](https://github.com/takayuki1997)
-- [researchmap](https://researchmap.jp/takayuki_ogi)
-- [ORCID (0000-0002-5646-4096)](https://orcid.org/0000-0002-5646-4096)
+  <div class="profile-links">
+    <p><a href="https://www.facebook.com/takayuki1997" target="_blank">Facebook</a></p>
+    <p><a href="https://x.com/takayuki1997" target="_blank">X</a></p>
+    <p><a href="https://www.instagram.com/takayuki1997/" target="_blank">Instagram</a></p>
+    <p><a href="https://www.linkedin.com/in/takayuki1997/" target="_blank">Linkedin</a></p>
+    <p><a href="https://researchmap.jp/T_SATO" target="_blank">researchmap</a></p>
+    <p><a href="https://orcid.org/0000-0002-5646-4096" target="_blank">orcid</a></p>
+    <p><a href="https://github.com/takayuki1997" target="_blank">GitHub</a></p>
+  </div>
+</main>
