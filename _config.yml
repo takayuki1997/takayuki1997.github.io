@@ -1,0 +1,24 @@
+title: Takayuki OGI
+description: Takayuki OGI (荻 多加之) - Research Administrator / Neuroscience PhD
+url: "https://takayuki1997.github.io"
+baseurl: ""
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - index.md
+
+social_links:
+  facebook: true
+  twitter: true
+  linkedin: true
+  github: takayuki1997
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
