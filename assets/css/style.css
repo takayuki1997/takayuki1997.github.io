@@ -33,11 +33,19 @@ body {
 }
 
 .site-content a {
-  color: #006580;
+  color: #434343;
   text-decoration: none;
 }
 
 .site-content a:hover {
+  text-decoration: underline;
+}
+
+.social-links a {
+  color: #006580;
+}
+
+.social-links a:hover {
   color: #007a93;
 }
 
