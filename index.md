@@ -5,9 +5,12 @@ title: Takayuki OGI（荻 多加之）
 
 # Takayuki OGI（荻 多加之）
 
-*PhD in Neuroscience*  
-Research Administrator at [Fukushima University](https://www.fukushima-u.ac.jp/)  
-Research Associate Professor at [JAIST](https://www.jaist.ac.jp)  
+*PhD in Neuroscience*
+
+Research Administrator at [Fukushima University](https://www.fukushima-u.ac.jp/)
+
+Research Associate Professor at [JAIST](https://www.jaist.ac.jp)
+
 Visiting Researcher at [Fukushima Medical University](https://www.fmu.ac.jp/)
 
 <div class="social-links" markdown="1">

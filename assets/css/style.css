@@ -16,7 +16,11 @@ body {
   padding: 32px 48px 60px;
   font-family: 'Courier New', Arial, sans-serif;
   font-size: 11pt;
-  line-height: 1.5;
+  line-height: 1.2;
+}
+
+.site-content p {
+  margin-bottom: 8px;
 }
 
 .site-content h1 {
@@ -28,9 +32,6 @@ body {
   margin-bottom: 12px;
 }
 
-.site-content p {
-  margin-bottom: 4px;
-}
 
 .site-content a {
   color: #434343;
