@@ -22,10 +22,10 @@ body {
 }
 
 .site-content h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', 'Noto Sans', sans-serif;
   color: #226e93;
   font-size: 22pt;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   margin-bottom: 16px;
 }
