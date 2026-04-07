@@ -3,6 +3,8 @@ layout: default
 title: Takayuki OGI（荻 多加之）
 ---
 
+# Takayuki OGI（荻 多加之）
+
 *PhD in Neuroscience*
 
 Research Administrator at [Fukushima University](https://www.fukushima-u.ac.jp/)
