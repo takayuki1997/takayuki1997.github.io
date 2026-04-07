@@ -24,10 +24,10 @@ body {
 .site-content h1 {
   font-family: 'Noto Sans JP', 'Noto Sans', sans-serif;
   color: #434343;
-  font-size: 16pt;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin-bottom: 16px;
+  font-size: 13pt;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 12px;
 }
 
 .site-content p {
@@ -50,6 +50,6 @@ body {
   }
 
   .site-content h1 {
-    font-size: 18pt;
+    font-size: 13pt;
   }
 }
