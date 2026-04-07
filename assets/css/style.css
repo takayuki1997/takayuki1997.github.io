@@ -41,6 +41,10 @@ body {
   text-decoration: underline;
 }
 
+.social-links {
+  margin-top: 24px;
+}
+
 .social-links a {
   color: #006580;
 }
