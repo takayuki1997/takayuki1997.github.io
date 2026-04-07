@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ site.description }}">
-  <meta property="og:title" content="Takayuki OGI（荻 多加之）">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}">
   <meta property="og:description" content="{{ site.description }}">
@@ -21,6 +21,13 @@
   </script>
 </head>
 <body>
-  {{ content }}
+  <header class="site-header">
+    <div class="header-content">
+      <h1 class="site-title">{{ page.title }}</h1>
+    </div>
+  </header>
+  <main class="site-content">
+    {{ content }}
+  </main>
 </body>
 </html>
