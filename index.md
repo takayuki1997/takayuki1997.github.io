@@ -17,8 +17,6 @@ title: Takayuki OGI（荻 多加之）
     <p>Visiting Researcher at <a href="https://www.fmu.ac.jp/" target="_blank">Fukushima Medical University</a></p>
   </div>
 
-  <hr class="section-divider">
-
   <div class="profile-links">
     <p><a href="https://www.facebook.com/takayuki1997" target="_blank">Facebook</a></p>
     <p><a href="https://x.com/takayuki1997" target="_blank">X</a></p>
