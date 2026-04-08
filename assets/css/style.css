@@ -40,7 +40,7 @@ body {
 
 
 .site-content a {
-  color: #434343;
+  color: #006580;
   text-decoration: none;
 }
 
@@ -48,16 +48,12 @@ body {
   text-decoration: underline;
 }
 
+.affiliations a {
+  color: #434343;
+}
+
 .social-links {
   margin-top: 24px;
-}
-
-.social-links a {
-  color: #006580;
-}
-
-.social-links a:hover {
-  color: #007a93;
 }
 
 /* Responsive */
