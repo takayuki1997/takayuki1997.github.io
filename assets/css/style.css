@@ -20,11 +20,13 @@ body {
 
 .site-content ul {
   list-style: none;
+  padding-left: 0;
   margin-bottom: 8px;
 }
 
 .site-content ul li {
   margin-bottom: 8px;
+  line-height: 1.0;
 }
 
 .site-content h1 {
