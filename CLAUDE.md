@@ -16,7 +16,8 @@ Takayuki OGI（荻 多加之）の個人サイト。Jekyll + GitHub Pages で構
 | `_layouts/default.html` | HTML の枠組み、Analytics、フォント読み込み |
 | `assets/css/style.css` | デザイン（CSS） |
 | `_config.yml` | Jekyll 設定、SEO プラグイン |
-| `favicon.svg` | ファビコン（SVG、サイトカラー #006580 の同心円） |
+| `favicon.svg` | ファビコン（SVG、#434343 の四角に白字 T） |
+| `favicon.png` | ファビコン PNG フォールバック（Safari 用） |
 | `llms.txt` | LLM 向けサイト情報 |
 | `robots.txt` | クローラー設定 |
 
