@@ -24,5 +24,6 @@ title: Takayuki OGI（荻 多加之）
 - [researchmap](https://researchmap.jp/T_SATO)
 - [ORCID](https://orcid.org/0000-0002-5646-4096)
 - [GitHub](https://github.com/takayuki1997)
+- [KAKEN](https://nrid.nii.ac.jp/nrid/1000020391964/)
 
 </div>
