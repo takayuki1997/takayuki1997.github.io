@@ -3,4 +3,68 @@
 Takayuki OGI（荻 多加之）の個人サイトです。
 
 - URL: https://takayuki1997.github.io/
-- Built with: Jekyll + GitHub Pages
+
+## このサイトの仕組み
+
+GitHub だけで無料で公開できるウェブサイトです。サーバー契約や独自ドメイン購入は不要で、必要なのは GitHub アカウントだけです。
+
+### GitHub Pages
+
+[GitHub Pages](https://pages.github.com/) は、GitHub が提供する無料の静的サイトホスティングサービスです。リポジトリにファイルを置くだけで、自動的に Web で公開されます。
+
+リポジトリ名を `<username>.github.io` にすると、URL は `https://<username>.github.io/` になります。このリポジトリは `takayuki1997.github.io` という名前なので、URL は https://takayuki1997.github.io/ です。
+
+### Jekyll
+
+[Jekyll](https://jekyllrb.com/) は静的サイトジェネレータです。Markdown で書いたコンテンツを HTML に変換してくれます。GitHub Pages は Jekyll をネイティブサポートしているので、追加設定なしで利用できます。
+
+このサイトでは:
+
+- 本文は `index.md`（Markdown）
+- ページの枠組みは `_layouts/default.html`（HTML テンプレート）
+- デザインは `assets/css/style.css`
+- サイト全体の設定は `_config.yml`
+
+これらを Jekyll が組み合わせて HTML を生成します。
+
+## 公開フロー
+
+1. ローカルでファイルを編集
+2. `git commit` & `git push` で GitHub にアップロード
+3. GitHub Actions が Jekyll ビルドを実行
+4. 数十秒〜1分で公開 URL に反映
+
+SSH や FTP でサーバーにアップロードする必要はなく、`git push` だけで更新できます。
+
+## ファイル構成
+
+| ファイル | 役割 |
+|---|---|
+| `index.md` | サイトのコンテンツ（Markdown） |
+| `_layouts/default.html` | HTML の枠組み（Analytics、フォント読み込みなど） |
+| `assets/css/style.css` | デザイン（CSS） |
+| `_config.yml` | Jekyll 設定 |
+| `favicon.svg` / `favicon.png` | ファビコン |
+| `llms.txt` | LLM 向けのサイト情報 |
+| `robots.txt` | クローラー設定 |
+| `Gemfile` | Jekyll プラグインの依存関係 |
+
+## コスト
+
+完全無料です。GitHub アカウントを持っていればすぐに始められます。
+
+独自ドメイン（例: `example.com`）を使いたい場合はドメイン取得費用（年 1,000〜2,000円程度）が別途かかりますが、`<username>.github.io` のままなら一切費用はかかりません。
+
+## 自分でも作ってみたい人へ
+
+このリポジトリは Public なので、fork して書き換えることで自分の個人サイトとして公開できます。
+
+1. GitHub アカウントを作成
+2. `<your-username>.github.io` という名前で新しいリポジトリを作成
+3. このリポジトリを参考に `index.md`、`_config.yml`、`_layouts/default.html`、`assets/css/style.css` を編集
+4. リポジトリ設定の Pages から GitHub Pages を有効化
+5. `git push` で公開
+
+## License
+
+[MIT License](LICENSE) — このサイトの仕組みやコードは自由に利用できます。
