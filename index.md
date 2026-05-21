@@ -30,6 +30,6 @@ title: Takayuki OGI（荻 多加之）
 
 <div class="contact" markdown="1">
 
-[Email](mailto:takayuki1997@gmail.com)
+- [Email](mailto:takayuki1997@gmail.com)
 
 </div>
