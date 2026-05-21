@@ -27,3 +27,9 @@ title: Takayuki OGI（荻 多加之）
 - [KAKEN](https://nrid.nii.ac.jp/nrid/1000020391964/)
 
 </div>
+
+<div class="contact" markdown="1">
+
+[Email](mailto:takayuki1997@gmail.com)
+
+</div>
