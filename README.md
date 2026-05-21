@@ -57,13 +57,18 @@ SSH や FTP でサーバーにアップロードする必要はなく、`git pus
 
 ## 自分でも作ってみたい人へ
 
-このリポジトリは Public なので、fork して書き換えることで自分の個人サイトとして公開できます。
+このリポジトリは Public なので、自由に参考にしてください。
+
+実際このサイトは AI コーディングアシスタント [Claude Code](https://claude.ai/code) で作成・更新しています。HTML や CSS の知識がなくても、対話するだけで構築・更新できます。
 
 1. GitHub アカウントを作成
-2. `<your-username>.github.io` という名前で新しいリポジトリを作成
-3. このリポジトリを参考に `index.md`、`_config.yml`、`_layouts/default.html`、`assets/css/style.css` を編集
-4. リポジトリ設定の Pages から GitHub Pages を有効化
-5. `git push` で公開
+2. `<your-username>.github.io` という名前で新しいリポジトリを作成し、ローカルにクローン
+3. Claude Code を起動して「Jekyll + GitHub Pages で個人サイトを作って」と依頼
+4. 内容やデザインを対話で調整（「もっとシンプルに」「メールリンクを追加して」など）
+5. リポジトリ設定の Pages から GitHub Pages を有効化
+6. Claude Code に commit & push を依頼すれば公開
+
+もちろん、Web 技術に慣れている方は手動でファイルを編集しても構いません。
 
 ## License
 
