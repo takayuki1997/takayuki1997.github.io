@@ -8,6 +8,12 @@
 - Research Associate Professor at JAIST (https://www.jaist.ac.jp)
 - Visiting Researcher at Fukushima Medical University (https://www.fmu.ac.jp/)
 
+## Research Interests
+
+- Inferior temporal cortex (下側頭葉皮質)
+- Metascience (メタサイエンス)
+- Natural language processing (自然言語処理)
+
 ## Profiles
 
 - Facebook: https://www.facebook.com/takayuki1997
